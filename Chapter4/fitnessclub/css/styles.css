@@ -1,10 +1,10 @@
-/* Reset in CSS */
+/* CSS Reset */
 body, header, nav, main, footer, h1, div, img{
     margin: 0;
     padding: 0;
     border: 0;
 }
-/* Set background-color for websites */
+/* Set styles rules for body*/
 body{
     background-color: #000;
 }
@@ -14,11 +14,13 @@ img{
     display: block;
 }
 
+/* Set styles rules for header*/
 header{
     width: 25%;
     float: left;
 }
 
+/* Set styles rules for navigation area*/
 nav{
     width: 70%;
     float: right;
@@ -45,6 +47,7 @@ nav li a{
     text-decoration: none;
 }
 
+/* Set styles rules for main content*/
 main{
     clear: left;
     background-color: #fff;
@@ -101,6 +104,7 @@ main{
     border:8px solid #000;
 }
 
+/* Set styles rules for footer content*/
 footer p {
     font-size: 0.75em;
     text-align: center;
